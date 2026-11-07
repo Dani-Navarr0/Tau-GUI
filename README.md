@@ -7,32 +7,24 @@ This project is heavily inspired by Taumorrow´s Windows Tau-Runner. Please see:
 <img width="776" height="549" alt="image" src="https://github.com/user-attachments/assets/d03306b7-093d-4013-a528-6e0526d40c2c" />
 
 ## Features
-
-### 🖥️ Modern GUI Layout
 * **Three-Pane Interface**:
     * **Left**: Main REPL interaction window.
     * **Middle**: Dynamic **.tau Program Viewer** (appears when a .tau program is loaded).
     * **Right**: Command History and detailed Debug Log.
 * **System Stats**: Live CPU and RAM usage monitoring in the footer.
-
-### 🎨 Fully Customizable Themes
 * **Theme Editor**: Built-in graphical editor to change the color of every UI element.
 * **Persistency**: Your custom color schemes are automatically saved to `config.ini`.
-
-### ⏯️ Script Debugger (Stepper)
 * **Load Scripts**: Open `.tau` files directly from the interface.
 * **Step-by-Step Execution**: Execute your script line-by-line using the **"Step Next ▶"** button.
 * **Visual Tracking**: The current line to be executed is highlighted in the script viewer for easy follow.
 * **Comment Tracking**: Comments are displayed in light gray.
-
-### 🛠️ Developer Tools
 * **Debug Log**: Timestamped log of exactly what is sent to and received from the Tau process (including execution time).
 * **Smart Filtering**: Automatically cleans up raw REPL output (removing echoes and prompts) for a cleaner reading experience.
 * **Clear Command**: Supports typing `clear` or `cls` to wipe the REPL screen.
 
 ---
 
-## 📥 Executable Quick Start (No Python Required)
+## Executable Quick Start (No Python Required)
 
 You can run Tau-GUI without installing Python by downloading the pre-built Linux or Windows executable:
 
